@@ -27,7 +27,6 @@ const TodoListPage = () => {
 
     return (
         <>
-        <input />
         <button onClick={()=>setCreateTaskModalOpen(true)}>Create task</button>
         {createTaskModalOpen && <CreateTaskModal open={createTaskModalOpen} setIsOpen={setCreateTaskModalOpen} />}
         <section className={style.sectionStyle}>
