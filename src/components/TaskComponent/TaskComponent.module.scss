@@ -1,0 +1,19 @@
+@use '../../common/styles/template';
+
+.card-wrapper {
+    @extend %card-wrapper;
+}
+
+.card-wrapper-is-done{
+    @extend %card-wrapper;
+    background-color: rgb(102, 102, 102);
+    button{
+        background-color: rgb(172, 35, 35);
+        border: 1px solid black;
+        border-radius: 2.5px;
+    }
+}
+
+.isDone{
+    text-decoration: line-through;
+}
